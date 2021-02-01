@@ -49,6 +49,7 @@ var calculator = {
     this.cClean();
     var _multiplying = _a * 1;
     this.temporaryMultiply = _multiplying; 
+    document.write(_a);
   },
  
   split : function () {
