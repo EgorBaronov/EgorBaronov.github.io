@@ -58,6 +58,7 @@ var calculator = {
     var _splitting = _a * 1;
     this.temporarySplit = _splitting;
     console.log(_a);
+    alert("NEW");
   },
   equally : function () {
     if (this.temporaryMultiply) {
