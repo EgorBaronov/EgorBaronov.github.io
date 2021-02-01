@@ -48,8 +48,7 @@ var calculator = {
     var _a = this.firstArray.join('');
     this.cClean();
     var _multiplying = _a * 1;
-    this.temporaryMultiply = _multiplying;
-    
+    this.temporaryMultiply = _multiplying; 
   },
  
   split : function () {
@@ -57,8 +56,6 @@ var calculator = {
     this.cClean();
     var _splitting = _a * 1;
     this.temporarySplit = _splitting;
-    
-  
   },
   equally : function () {
     if (this.temporaryMultiply) {
@@ -80,24 +77,4 @@ var calculator = {
       alert(b);
     }
   }
-  
-  
 };
-
-
-
-
-
-//            решаем задачу как после первой операции при повторном * / + - 
-//            умножалось / делилось / прибавляло / отнимало от предыдущего результата, а не от последнего введенног ов массив!.
-/*
-taxi.arrayCalc=[1,2,4];
-taxi.arrayCalc.push(1);
-taxi.arrayCalc.push(1);
-taxi.arrayCalc.push(1);
-taxi.arrayCalc.push(1);
-taxi.arrayCalc.push(1);
-taxi.arrayCalc.push(1);
-taxi.arrayCalc = taxi.arrayCalc.join('');
-console.log(taxi.arrayCalc);
-*/
