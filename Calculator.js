@@ -58,13 +58,14 @@ var calculator = {
     var _splitting = _a * 1;
     this.temporarySplit = _splitting;
     console.log(_a);
-    alert("NEW");
+    
   },
   equally : function () {
     if (this.temporaryMultiply) {
       var _a = this.firstArray.join('');
         var result = this.temporaryMultiply * _a;
             alert(result);
+            this.cClean();
     } else if (this.temporarySplit) {
       var _a = this.firstArray.join('');
       if (_a == 0 ) {
