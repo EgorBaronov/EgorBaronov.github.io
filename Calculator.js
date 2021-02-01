@@ -72,6 +72,7 @@ var calculator = {
       } else 
       var result = this.temporarySplit / _a;
             alert(result);
+            this.cClean();
     } 
     else {
       var b = result / _a;
